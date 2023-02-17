@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  *main -E entry point
- *Return 0 alwaus (success)
+ *Return: Always 0 (success)
  */
 
 int main(void)
