@@ -18,6 +18,6 @@ int main(void)
 		putchar(smalp[i]);
 		putchar(upalp[i]);
 	}
-		putchat('\n');
+		putchar('\n');
 		return (0);
 }
