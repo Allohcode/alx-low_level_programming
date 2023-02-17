@@ -9,8 +9,8 @@
 
 int main(void)
 {
-	char smalp[26] = "abcdefghijklmnopqrstuvwxyz";
-	char upalp[26] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+	char smalp = "abcdefghijklmnopqrstuvwxyz";
+	char upalp = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 	int i;
 
 	for (i = 0; i < 26; i++)
