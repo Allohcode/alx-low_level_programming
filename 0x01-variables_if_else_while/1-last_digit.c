@@ -1,5 +1,5 @@
 #include <stdlib.h>
-#include <stdio.h>
+#include <time.h>
 /**
  * main -E entry point
  * n for random number
