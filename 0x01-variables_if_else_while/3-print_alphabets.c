@@ -9,14 +9,18 @@
 
 int main(void)
 {
-	char smalp[26] = "abcdefghijklmnopqrstuvwxyz";
-	char upalp[26] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+	char small = "a";
+	char capital = "A";
 	int i;
 
-	for (i = 0; i < 26; i++)
+	for (i = "a"; i < "z"; i++)
 	{
-		putchar(smalp[i]);
-		putchar(upalp[i]);
+		putchar(small[i]);
+		
+	}
+	for (i = "A"; I < "Z"; i++)
+	{
+		putchar(capital[i];
 	}
 		putchar('\n');
 		return (0);
