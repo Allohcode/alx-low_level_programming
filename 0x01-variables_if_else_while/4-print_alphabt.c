@@ -1,5 +1,6 @@
 #include <stdio.h>
-#include <ctype.c>
+#include <stdlib.h>
+#include <time.h>
 /**
  *main entry point
  *char for alphabets
