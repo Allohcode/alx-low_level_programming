@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- *main entry point
+ *main -E entry point
  *char for alphabets
  *loop
  *condition
