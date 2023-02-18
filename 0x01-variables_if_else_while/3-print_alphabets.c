@@ -11,6 +11,7 @@ int main(void)
 {
 	char small;
 	char capital;
+
 	for (small = 'a'; small <= 'z'; small++)
 	{
 		putchar(small);
