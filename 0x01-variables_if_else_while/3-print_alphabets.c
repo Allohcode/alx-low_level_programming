@@ -15,12 +15,12 @@ int main(void)
 
 	for (i = "a"; i < "z"; i++)
 	{
-		putchar(small[i]);
+		putchar(small);
 		
 	}
 	for (i = "A"; I < "Z"; i++)
 	{
-		putchar(capital[i];
+		putchar(capital);
 	}
 		putchar('\n');
 		return (0);
