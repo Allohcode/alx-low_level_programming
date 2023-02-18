@@ -9,18 +9,16 @@
 
 int main(void)
 {
-	char small = "a";
-	char capital = "A";
-	int i;
+	char i;
 
 	for (i = "a"; i < "z"; i++)
 	{
-		putchar(small);
+		putchar(i);
 		
 	}
 	for (i = "A"; I < "Z"; i++)
 	{
-		putchar(capital);
+		putchar(i);
 	}
 		putchar('\n');
 		return (0);
