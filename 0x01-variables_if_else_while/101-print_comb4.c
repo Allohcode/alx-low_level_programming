@@ -27,7 +27,7 @@ int main(void)
 	continue;
 
 	putchar(',');
-	putchat(' ');
+	putchar(' ');
 	}
 	}
 	}
