@@ -12,23 +12,25 @@
 
 int main(void)
 {
-	int num1, num2;
+	int num1;
+	int num2;
 
-	for (num1 = 0; num1 < 10; num1++)
+	for (num1 = 0; num1 < 9; num1++)
 	{
-
-		for (num2 = 0; num2 < 10; num2++)
+		for (num2 = num1 + 1; num2 < 10; num2++)
 		{
-			int rmd1 = (num1 % 10);
-			int rmd2 = (num2 % 10);
+		putchar(num1 + '0');
+		putchar(num2 + '0');
 
-			if (!rmd2)
-			continue;
-			putchar(rmd1 + '0');
-			putchar(rmd2 + '0');
-			putchar(',');
-			putchar(' ');
+		if (num1 == 8 && num2 == 9)
+		continue;
+
+		putchar(',');
+		putchar(' ');
+
 		}
 	}
-	return (0);
+		putchar('\n');
+
+		return (0);
 }
