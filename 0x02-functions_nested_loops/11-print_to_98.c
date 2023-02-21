@@ -27,6 +27,6 @@ printf("%d", n);
 printf(", ");
 n--;
 }
-print("%d\n", 98);
+printf("%d\n", 98);
 }
 }
