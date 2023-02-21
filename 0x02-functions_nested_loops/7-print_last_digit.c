@@ -6,12 +6,12 @@
  * Return: Always 0 (Success)
  */
 
-int print_last_digit(int n)
+int print_last_digit(int j)
 {
 	int last;
-	int nlast = (n % 10);
+	int nlast = (j % 10);
 
-	if (n < 0)
+	if (j < 0)
 	{
 		last = (-1 * nlast);
 		_putchar (last + '0');
