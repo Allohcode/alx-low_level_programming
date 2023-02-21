@@ -4,7 +4,6 @@
  * print_sign - Function that prints the sign of a number
  * @n: Contains value to be compared
  * Return: Always 0 (Success)
- * Author: IanoNjuguna
  */
 
 int print_sign(int n)

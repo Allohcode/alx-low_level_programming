@@ -5,7 +5,6 @@
  * Description: Checks for lowercase character.
  * @c: Contains value to be compared
  * Return: Always 0 (Success)
- * Author: IanoNjuguna
  */
 
 int _islower(int c)

@@ -5,7 +5,6 @@
  * Description: Checks for alphabetic characters
  * @c: Contains value to be compared
  * Return: Always 0 (Success)
- * Author: IanoNjuguna
  */
 
 int _isalpha(int c)
