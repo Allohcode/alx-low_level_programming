@@ -1,34 +1,10 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
- * sum - print sum for multiples of 3 and 5 of natural numbers below 1024
- * Return: 0 always
+ * print_times_table - prints the times table
+ * @n: integer for which the times table will be printed
+ * Return: Always 0 (Success)
  */
 
-void sum(void)
+void print_times_table(int n)
 {
-	int i = 1024;
-	int sum = 0;
-
-	for (i = 0; i < 1024; i++)
-	{
-		if ((i % 3 == 0) || (i % 5 == 0))
-		{
-			sum = sum + i;
-		}
-	}
-			printf("%d\n", sum);
-}
-
-/**
- * main - entry point
- *
- * Return: Always 0 (success)
- */
-
-int main(void)
-{
-	sum();
-	return (0);
-}
