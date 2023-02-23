@@ -11,7 +11,7 @@ int main(void)
 {
 	int i;
 
-	i = 98;
+	i = 0;
 	positive_or_nagative(i);
 
 	return (0);
