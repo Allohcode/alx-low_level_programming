@@ -3,20 +3,34 @@
 /**
  * reverse_array - revers arrays
  * @a: input
- * @n input
+ * @n: input
  * Return: void
  */
 
 
 void reverse_array(int *a, int n)
 {
-	int i;
-	int temp;
+	int bb[] = { 0 };
+	int i, j, k, *b = bb;
 
-	for (i = 0; i < n--; i++)
+	i = 0;
+
+	while (i < n)
 	{
-	temp = a[i];
-	a[i] = a[n];
-	a[n] = temp;
+	bb[i] = a[i];
+
+	_putchar(bb[i] + '0');
+
+	b++;
+	i++;
+	}
+	k = 0;
+	j = n - 1;
+
+	while (j >= 0)
+	{
+	a[k] = *b;
+	j--;
+	b--;
 	}
 }
