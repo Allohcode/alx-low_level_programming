@@ -15,6 +15,7 @@ int j = 0;
 
 while (n > 0)
 {
+dest[i] = src[i];
 i++;
 j++;
 n--;
