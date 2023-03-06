@@ -16,7 +16,7 @@ unsigned int length;
 length = 0;
 for (i = 0; s[i] != '\0'; i++)
 {
-for (j = 0; accept[i] != '\0' && accept[i] != s[i]; j++)
+for (j = 0; accept[j] != '\0' && accept[j] != s[j]; j++)
 ;
 if (s[i] == accept[j])
 	length++;
