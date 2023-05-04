@@ -7,22 +7,14 @@
 
 void print_binary(unsigned long int n)
 {
-int i, cnt = 0;
-unsigned long int curnt;
-
-for (i = 63; i >= 0; i--)
+if (n >> 0)
 {
-curnt = n >> i;
-
-if (curnt & 1)
+if (n >> 1)
+print_binary(n >> 1);
+_putchar((n & 1) + '0');
+}
+else
 {
-_putchar('1');
-cnt++;
+_putchar('0');
 }
-else if (cnt)
-	_putchar('0');
-}
-
-if (!cnt)
-	_putchar('0')
 }
