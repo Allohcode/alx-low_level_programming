@@ -8,19 +8,14 @@
  * Return: number of bits to change
  */
 
-unsigned int flip_bits(unsigned long int n, unsigned long int m);
-
+unsigned int flip_bits(unsigned long int n, unsigned long int m)
 {
-int i cnt = 0;
-unsigned long int crnt;
-usigned long excl = n ^ m;
+unsigned int bit;
 
-for (i = 63; i >= 0; 1--)
+for (bit = 0; n || m; n >>= 1, m >>= 1)
 {
-crnt = excl >> i;
-
-if (crnt & 1)
-cnt++;
+if ((n & 1) != (m & 1))
+bit++;
 }
-return (count);
+return (bit);
 }
