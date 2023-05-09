@@ -18,9 +18,9 @@ char *buf;
 if (!filename)
 	return (0);
 
-fb = open(filename, O_RDONLY);
+fd = open(filename, O_RDONLY);
 
-if (fb == -1)
+if (fd == -1)
 	return (0);
 
 buf = malloc(sizeof(char) * (letters));
@@ -28,10 +28,10 @@ buf = malloc(sizeof(char) * (letters));
 if (!buf)
 	return (0);
 
-nrd = read(fb, buf, letters);
+nrd = read(fd, buf, letters);
 nwr = write(STDOUT_FILENO, buf, nrd);
 
-close(fb);
+close(fd);
 
 free(buf);
 
